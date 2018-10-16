@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 200px;
+}
+h3 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 40px;
+}
+#contenitore {
+  background-color: #fff;
+}
+.box {
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+#opacitaRossa {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image:  -webkit-linear-gradient(top left,rgba(255,255,34,0.1),rgba(247, 3, 3,1));
+}
+#opacitaGialla {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image:  -webkit-linear-gradient(top left,rgba(255,255,34,0.1),rgba(255,255,28,1));
+}
+#opacitaAzzurra {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image:  -webkit-linear-gradient(top left,rgba(255,255,34,0.1),rgba(0,221,255,1));
+}
+#foto1 {
+  background: url("img/maranello.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#foto2 {
+  background: url("img/cuba.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#foto3 {
+  background: url("img/ferrara.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.posizionamentoCentrale {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
